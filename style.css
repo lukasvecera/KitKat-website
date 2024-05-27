@@ -1,0 +1,332 @@
+* {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+}
+
+.mobile, .mobile-reviews-responsivity {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: italic;
+}
+
+body {
+    background-color: #A81515;
+    height: auto;
+}
+
+.logo {
+    width: 80px;
+    height: 45px;
+    margin-top: 5px;
+    margin-left: 60px;
+    position: absolute;
+}
+
+.home {
+    background-color: #A81515;
+    display: flex;
+}
+
+a {
+    text-wrap: nowrap;
+    width: 50px;
+    height: 20px;
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+    margin-left: 240px;
+    z-index: 2;
+    transition: ease-out;
+    transition-duration: 0.3s;
+}
+
+a:hover {
+    filter: brightness(50%);
+}
+
+.navbar {
+    display: flex;
+}
+
+.custom-shape-divider-top-1709105336 {
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1709105336 svg {
+    position: relative;
+    display: block;
+    width: calc(110% + 1.3px);
+    height: 101px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1709105336 .shape-fill {
+    fill: #F40404;
+}
+
+.Kit-Kat-break img {
+    width: 400px;
+    height: 400px;
+}
+
+.Kit-Kat-break {
+    margin-left: 150px;
+    margin-top: 200px;
+}
+
+.home-text {
+    font-size: 30px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 350px;
+    margin-left: 80px;
+    gap: 30px;
+}
+
+.home-content {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 100px;
+}
+
+.pops {
+    display: block;
+    margin: auto;
+    height: auto;
+    width: 70%;
+}
+
+.new {
+    background-image: url(Pictures/Kit-Kat-pops-background.png);
+    background-color: white;
+}
+
+h1 {
+    font-size: 70px;
+    text-align: center;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+button {
+    background-color: #F40404;
+    opacity: 0.7;
+    border: none;
+    padding: 15px 70px;
+    font-size: 30px;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.4);
+    transition: 0.3s;
+}
+
+button:hover {    
+    opacity: 1;
+    cursor: pointer;
+}
+
+h2 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.about-product {
+    height: 720px;
+    background-image: url(Pictures/About.png);
+    background-repeat: no-repeat;
+    margin-right: 20px;
+}
+
+.about-title {
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.about {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 150px;
+
+}
+.reviews-title {
+    color: black;
+    text-align: center;
+    margin: 15px;
+}
+
+.reviews {
+    width: 65%;
+    position: absolute;
+    top: 2580px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.reviews-overall {
+    background-color: white;
+    height: 700px;
+}
+
+.contact-us {
+    background-color: #A81515;
+    height: 750px;
+}
+
+.obsah {
+    font-size: 30px;
+    color: white;
+    word-spacing: 5px;
+}
+
+.contact-title {
+    color: white;
+    padding: 40px;
+}
+
+input[type=text], input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+form {
+    margin-top: 60px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+input[type=submit] {
+    display: block;
+    margin: auto;
+    height: auto;
+    background-color: #C02121;
+    color: white;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #F40404;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+label {
+    color: white;
+}
+
+@media (max-width: 1024px) {
+    a {
+        margin-left: 170px;
+    }
+    .logo {
+        margin-left: 40px;
+    }
+    .Kit-Kat-break img {
+        width: 300px;
+        height: 300px;
+    }
+    .Kit-Kat-break {
+        margin-right: 100px;
+    }
+    .home-text {
+        margin-top: 250px;
+    }
+    .reviews {
+        top: 2300px;
+    }
+}
+
+@media screen and (max-width: 431px) {
+    .home {
+        display: none;
+    }
+    .reviews {
+        display: none;
+    }
+    button {
+        padding: 5px 20px;
+        font-size: 20px;
+    }
+    .home-content {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-right: 80px;
+    }
+    .home-text {
+        margin-top: 70px;
+    }
+    .Kit-Kat-break {
+        position: relative;
+        right: 70px;
+    }
+    .about {
+        font-size: 22px;
+        margin-top: 20px;
+    }
+    .about-product {
+        width: 430px;
+    }
+    form {
+        width: 215px;
+        position: absolute;
+        left: -147px;
+    }
+    .mobile, .mobile-reviews-responsivity {
+        display: block;
+        position: relative;
+    }
+    .mobile-hamburger {
+        position: relative;
+        bottom: 947px;
+        left: 380px;
+    }
+    .mobile-logo {
+        width: 80px;
+        height: 45px;
+        position: relative;
+        bottom: 940px;
+        right: 49px;
+    }
+    .mobile-reviews {
+        width: 350px;
+        height: 550px;
+        display: block;
+        position: relative;
+        top: 24px;
+        right: -40px;
+    }
+}
